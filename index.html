@@ -310,7 +310,7 @@ footer{background:var(--pine2);color:#cdbf9f;font-size:13px;padding:34px 0 110px
 
 <script>
 /* ====== CONFIGURAÇÃO (edite só estas 2 linhas) ====== */
-var CHECKOUT_URL="";  /* cole aqui o link de checkout da Kiwify, entre aspas */
+var CHECKOUT_URL="https://pay.kiwify.com.br/SU0Lei1";  /* cole aqui o link de checkout da Kiwify, entre aspas */
 var PIXEL_ID="";      /* cole aqui o ID do Pixel do Meta, entre aspas */
 /* ==================================================== */
 document.querySelectorAll("[data-buy]").forEach(function(a){if(CHECKOUT_URL){var q=location.search.slice(1);a.href=CHECKOUT_URL+(q?(CHECKOUT_URL.indexOf("?")>-1?"&":"?")+q:"")}});
